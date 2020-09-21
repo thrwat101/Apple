@@ -11,7 +11,7 @@ body{
 }
 nav{
     height: 50px;
-    background: #000;
+    background: #1d1d1f;
 }
 
 .navbar{
@@ -46,9 +46,9 @@ nav{
     
     }
   .ShopO {
-    background: #1d1d1f;
+    background: ;
     padding: 1px;
     margin: 0px;
-    color: white;
+    color: black;
     text-align: center;
    }
