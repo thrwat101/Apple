@@ -1,1 +1,54 @@
-real active css
+/* real active css */
+html{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+}
+nav{
+    height: 50px;
+    background: #000;
+}
+
+.navbar{
+    position: relative;
+    margin: 0 auto;
+    width:1000px;
+
+}
+
+.navbar ul{
+    width: 100%;
+    margin: 0;
+    padding-right 0;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li, .navbar ul li a{
+    color: #fff;
+    line-height: 50px;
+    text-decoration: none;
+}
+.Warning {
+    background: #0071E3;
+    padding: 1px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    
+    }
+  .ShopO {
+    background: #1d1d1f;
+    padding: 1px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+   }
