@@ -52,3 +52,88 @@ nav{
     color: black;
     text-align: center;
    }
+            .container {
+				position: relative;
+				text-align: center;
+				color: blue;
+			}
+			.link0 {
+				position: absolute;
+				top: 0%;
+				left: 40%;
+			}
+			.link01 {
+				position: absolute;
+				top: 0%;
+				left: 55%;
+				
+			}
+			.link1 {
+				position: absolute;
+				top: 50%;
+				left: 40%;
+				
+			}
+			.link2 {
+				position: absolute;
+				top: 50%;
+				left: 55%;
+			
+			}
+			.link3 {
+				position: absolute;
+				top: 100px;
+				left: 20%;
+				
+			}
+			.link4 {
+				position: absolute;
+				top: 100px;
+				left:75%;
+				
+        		}
+			.link5 {
+				position: absolute;
+				top: 650px;
+				left: 20%;		
+			}
+			.link6 {
+				position: absolute;
+				top: 650px;
+				left:75%;	
+			}
+			.link7 {
+				position: absolute;
+				top: 1250px;
+				left: 20%;		
+			}
+			.link8 {
+				position: absolute;
+				top: 1250px;
+				left:75%;	
+			}
+		
+			a:link {
+				color: blue;
+				font-weight: bold;
+				font-size: 20px;
+				font-family: Calibri;
+				text-decoration: underline;
+			}
+			
+			a:hover { color: blue; }
+			a:visited { color: blue; }
+		
+			.h1 {
+			background-color = black;
+			text-align = center;
+			color: red
+			
+			}
+			.watch {
+				background: black;
+				padding: 1px;
+				margin: 0px;
+				color: gray;
+				text-align: center;
+			}   
