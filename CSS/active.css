@@ -43,7 +43,7 @@ nav{
     margin: 0px;
     color: white;
     text-align: center;
-    
+
     }
   .ShopO {
     background: ;
@@ -52,7 +52,7 @@ nav{
     color: black;
     text-align: center;
    }
-            .container {
+      .container {
 				position: relative;
 				text-align: center;
 				color: blue;
@@ -66,53 +66,53 @@ nav{
 				position: absolute;
 				top: 0%;
 				left: 55%;
-				
+
 			}
 			.link1 {
 				position: absolute;
 				top: 50%;
 				left: 40%;
-				
+
 			}
 			.link2 {
 				position: absolute;
 				top: 50%;
 				left: 55%;
-			
+
 			}
 			.link3 {
 				position: absolute;
 				top: 100px;
 				left: 20%;
-				
+
 			}
 			.link4 {
 				position: absolute;
 				top: 100px;
 				left:75%;
-				
+
         		}
 			.link5 {
 				position: absolute;
 				top: 650px;
-				left: 20%;		
+				left: 20%;
 			}
 			.link6 {
 				position: absolute;
 				top: 650px;
-				left:75%;	
+				left:75%;
 			}
 			.link7 {
 				position: absolute;
 				top: 1250px;
-				left: 20%;		
+				left: 20%;
 			}
 			.link8 {
 				position: absolute;
 				top: 1250px;
-				left:75%;	
+				left:75%;
 			}
-		
+
 			a:link {
 				color: blue;
 				font-weight: bold;
@@ -120,15 +120,15 @@ nav{
 				font-family: Calibri;
 				text-decoration: underline;
 			}
-			
+
 			a:hover { color: blue; }
 			a:visited { color: blue; }
-		
+
 			.h1 {
 			background-color = black;
 			text-align = center;
 			color: red
-			
+
 			}
 			.watch {
 				background: black;
@@ -136,4 +136,71 @@ nav{
 				margin: 0px;
 				color: gray;
 				text-align: center;
-			}   
+			}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f1f1f1;
+  color: #1d1d1f;
+  font-family: "San Francisco","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  padding-top: 17px;
+  padding-bottom: 21px;
+}
+footer ul {
+  color: rgb(134, 134, 139);
+  list-style-type: none;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+}
+footer hr {
+  background: #ccc;
+  height: 1px;
+  border: none;
+  width: 95%;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  background-color: #f1f1f1;
+  line-height: 22px;
+  justify-content: center;
+}
+
+.flex-column {
+  flex-direction: column;
+  text-align: left;
+  box-sizing: content-box;
+  width: 10%;
+}
+.flex-column-section {
+  padding-top: 24px;
+}
+.flex-column-section-title {
+  font-size: 12px;
+  color: rgb(29, 29, 31);
+  font-weight: 600;
+  text-align: left;
+}
+ .flex-column-row {
+  text-align: left;
+}
+.flex-container a {
+  font-size: 12px;
+  color: rgb(81, 81, 84);
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: left;
+}
+.flex-container a:hover {
+  text-decoration: underline;
+}
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
